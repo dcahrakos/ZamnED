@@ -3,6 +3,11 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     Title="MainWindow" Height="502.402" Width="697.372">
     <Grid>
-        
+        <Menu Height="26" VerticalAlignment="Top" Margin="0" Foreground="Black" Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}">
+            <MenuItem Header="File">
+                <MenuItem Header="&amp;Open ROM"/>
+                <MenuItem Header="&amp;Save ROM"/>
+            </MenuItem>
+        </Menu>
     </Grid>
 </Window>
