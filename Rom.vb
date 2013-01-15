@@ -9,6 +9,8 @@
 '    Public names As New Dictionary(Of Integer, String)
 '    Public failed As Boolean = False
 '    Public TitlePageGFX As TitleGFX
+'    Public OpenRom As New Microsoft.Win32.OpenFileDialog()
+
 
 '    Public hacked As Boolean = False
 

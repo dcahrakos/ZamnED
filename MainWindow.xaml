@@ -1,11 +1,16 @@
 ﻿<Window x:Class="MainWindow"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    Title="MainWindow" Height="502.402" Width="697.372">
+    Title="ZamnED" Height="502.402" Width="693.145" Background="#FFEAEAEA" WindowStyle="ThreeDBorderWindow" BorderThickness="0">
+    <Window.ContextMenu>
+        <ContextMenu>
+            <MenuItem/>
+        </ContextMenu>
+    </Window.ContextMenu>
     <Grid>
         <Menu Height="26" VerticalAlignment="Top" Margin="0" Foreground="Black" Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}">
-            <MenuItem Header="File">
-                <MenuItem Header="&amp;Open ROM"/>
+            <MenuItem Header="File" >
+                <MenuItem Header="&amp;Open ROM" Click="MenuItem_Click_1" />
                 <MenuItem Header="&amp;Save ROM"/>
             </MenuItem>
         </Menu>
